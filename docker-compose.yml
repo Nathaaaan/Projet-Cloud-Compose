@@ -1,1 +1,8 @@
-test
+services:
+  dbc:
+    build:
+      context: dbc/
+    environment:
+      POSTGRES_PASSWORD: rootpass
+    ports:
+      - 12321:5432
