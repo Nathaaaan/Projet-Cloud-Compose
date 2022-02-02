@@ -6,3 +6,8 @@ services:
       POSTGRES_PASSWORD: rootpass
     ports:
       - 12321:5432
+  springchan:
+    build:
+      context: springchan/
+    ports:
+      - 12322:8080
