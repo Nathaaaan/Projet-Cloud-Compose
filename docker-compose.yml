@@ -11,3 +11,9 @@ services:
       context: springchan/
     ports:
       - 12322:8080
+
+  web:
+    build:
+      context: web/
+    ports:
+      - 80:80
