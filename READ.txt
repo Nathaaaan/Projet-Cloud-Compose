@@ -1,3 +1,9 @@
 psql -U postgres -p 12321 < C:\Users\natha\Documents\b.sql
 
 La commande dans le terminal pour backup le fichier .sql
+
+
+Ce qu'il reste à faire:
+
+Backend Spring
+Web Front
