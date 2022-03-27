@@ -1,16 +1,4 @@
 # Projet-Cloud-Compose
-
-Commands to run the whole stack :
-
-docker-compose build
-docker-compose up -d
-
-
-Then you can open web browser and go to localhost:80 or just localhost.
-
-If this not does work maybe there is a port conflict.
-
-# Projet-Cloud-Compose
 <div id="top"></div>
 
 <h3 align="center">Projet-Cloud-Compose</h3>
@@ -86,6 +74,8 @@ Then the command to run the project:
 ```sh
 docker-compose up -d
 ```
+
+Then you can access to the web app by going to localhost on your web browser.
 
 <p align="right">(<a href="#top">Back to top of page</a>)</p>
 
